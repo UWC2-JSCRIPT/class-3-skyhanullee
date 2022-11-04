@@ -31,18 +31,29 @@ You are given a phone number, with one of the following formats (but you don't k
 '(206) 333-4444'
 '206-333-4444'
 '206 333 4444'
-Create a function testPhoneNumber that takes in a phoneNumber string in one of the above formats.  Test the phone number using the regex testLinks to an external site. method to determine if it is a valid format.
-Return the result of the test method (true if it is a valid phone number, false if not)
-Create a function parsePhoneNumber that takes in a phoneNumber string in one of the above formats.  Use a regular expression method (try execLinks to an external site.) with capturing groups to extract the area code and remaining 7 digit phone number as strings.
-This function will return an object in the format { areaCode: '206', phoneNumber: '2223333' }
+
+1. Create a function testPhoneNumber that takes in a phoneNumber string in one of the above formats.  Test the phone number using the regex testLinks to an external site. method to determine if it is a valid format.
+
+2. Return the result of the test method (true if it is a valid phone number, false if not)
+
+3. Create a function parsePhoneNumber that takes in a phoneNumber string in one of the above formats.  Use a regular expression method (try execLinks to an external site.) with capturing groups to extract the area code and remaining 7 digit phone number as strings.
+
+4. This function will return an object in the format { areaCode: '206', phoneNumber: '2223333' }
+
 Hints:
 
 Regex exec function will return an array.  The first item in the array will be the full match, the remaining items will be the matching groups
+
 Soccer Standings (functions, strings, arrays, objects)
-Create a function getTotalPoints that accepts a results string with ‘w’ for a win, ‘l’ for a loss, ‘d’ for a draw.  i.e. this could be passed in for the Sounders July results: “wddwww”
-This function will calculate the total number of points for a team (add 3 for each win, 1 for each tie, 0 for each loss).  I have provided a getPointsFromResult function to help you with this, you can call this method for each result.
-Complete orderResults function.  This accepts unlimited team objects { name, results }, and logs the team name & points
-Wrap everything in an IIFE to keep the variables out of the global scope
+
+1. Create a function getTotalPoints that accepts a results string with ‘w’ for a win, ‘l’ for a loss, ‘d’ for a draw.  i.e. this could be passed in for the Sounders July results: “wddwww”
+
+2. This function will calculate the total number of points for a team (add 3 for each win, 1 for each tie, 0 for each loss).  I have provided a getPointsFromResult function to help you with this, you can call this method for each result.
+
+3. Complete orderResults function.  This accepts unlimited team objects { name, results }, and logs the team name & points
+
+4. Wrap everything in an IIFE to keep the variables out of the global scope
+
 Sample output from 
 
 Hints:
